@@ -26,7 +26,12 @@
     margin-bottom: 0.5em;
 }
 
-.signUp .emailInput {
+.signUp .form {
+    width: 100%;
+}
+
+.signUp .input {
+    margin-bottom: 0.5em;
     font-size: 0.5em;
     display: block;
     background-color: #F5F5F5;
@@ -41,7 +46,6 @@
     display: flex;
     align-items: center;
     width: 100%;
-    margin-top: 0.3em;
 }
 
 .signUp .imageHolder {
@@ -68,6 +72,7 @@
     border: 2px solid black;
     border-radius: 10px;
     padding: 4px;
+    margin-bottom: 0.5em;
     height: 1.6em;
 }
 

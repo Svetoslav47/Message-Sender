@@ -19,7 +19,6 @@ const SignIn = () => {
 
     useEffect(() => {
         if (currentUser != null) {
-
             navigate("/");
         }
     }, [])
